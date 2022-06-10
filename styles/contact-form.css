@@ -1,0 +1,48 @@
+#container-form{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+input {
+    height: 40px;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: black;
+    background: #F6EFEE;
+    
+}
+textarea{
+    height: 100px;
+    width: 400px;
+    background: #F6EFEE;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    resize: none;
+
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #120D31;
+    color: white;
+}
+.btn:hover{
+    background-color:#120d3193;
+    color: black;
+}
+
+
+input::placeholder{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 500;
+}
+textarea::placeholder{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 500; 
+}
